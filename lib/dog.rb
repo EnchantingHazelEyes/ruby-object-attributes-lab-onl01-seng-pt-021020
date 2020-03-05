@@ -2,6 +2,8 @@ class Dog
   
   def name=(dog_name)
     @doggy_name = dog_name
+     fido.instance_variable_get(@doggy_name)
+
   end
   
   def name
@@ -9,5 +11,4 @@ class Dog
   end
 end
 
-  fido.instance_variable_get(@doggy_name)
-
+ 
