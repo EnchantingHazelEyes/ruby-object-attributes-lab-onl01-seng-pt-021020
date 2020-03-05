@@ -7,5 +7,7 @@ class Dog
   def name
      @doggy_name
   end
-  fido.instance_variable_get(@doggy_name)
 end
+
+  fido.instance_variable_get(@doggy_name)
+
