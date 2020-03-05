@@ -2,6 +2,8 @@ class Dog
   
   def name=(dog_name)
     @doggy_name = dog_name
+     name.instance_variable_get(@doggy_name)
+
 
   end
   
@@ -9,7 +11,5 @@ class Dog
      @doggy_name
   end
 end
-
- name.instance_variable_get(@doggy_name)
 
  
