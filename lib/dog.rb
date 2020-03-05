@@ -1,6 +1,6 @@
 class Dog
   
-  def 
+  def intia
     @doggy_name = dog_name
   end
   
